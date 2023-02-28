@@ -1,9 +1,9 @@
 import React, {useState } from 'react';
 import { AiOutlineMinus, AiOutlinePlus, AiFillStar, AiOutlineStar, AiOutline } from 'react-icons/ai';
 
-import { client, urlFor} from '../lib/client';
- import { product } from '../eccomerce/components';
- import {useStateContext} from '../eccomerce/context'
+import { client, urlFor} from '..lib/client';
+// import { product } from '../eccomerce/components';
+import {useStateContext} from '../context'
 
 const ProductDetails = ({ product, products}) => {
     const { image, name, details, price } = product;
